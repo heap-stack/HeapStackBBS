@@ -1,6 +1,9 @@
 BEGIN {
+	TITLE {
+		开发人员手册
+	}
 	H1 {
-		开发人员命名规则
+		开发人员命名规范
 	}
 	PREDEF {
 		1. 函数名用大驼峰,例如: ThisIsFunction().;
