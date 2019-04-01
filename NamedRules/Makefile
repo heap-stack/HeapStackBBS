@@ -5,7 +5,7 @@
 # time     : Mon 01 Apr 2019 01:38:08 PM CST
 #######################################################################
 
-FILES := basic
+FILES := 开发人员手册
 
 $(FILES).html: 
 	./ToolsOfIm2HTML/Im2Html $(FILES).im $(FILES).html
