@@ -1,0 +1,10 @@
+BEGIN {
+	H1 {
+		开发人员命名规则
+	}
+	PREDEF {
+		1. 函数名用大驼峰,例如: ThisIsFunction();
+		2. 变量名用小驼峰,例如: thisIsVariable;
+		3. 前端代码的id和class用下划线加后缀, 例如: exam_id, exam_class;
+	}
+}
