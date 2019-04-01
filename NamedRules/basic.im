@@ -3,8 +3,13 @@ BEGIN {
 		开发人员命名规则
 	}
 	PREDEF {
-		1. 函数名用大驼峰,例如: ThisIsFunction();
-		2. 变量名用小驼峰,例如: thisIsVariable;
-		3. 前端代码的id和class用下划线加后缀, 例如: exam_id, exam_class;
+		1. 函数名用大驼峰,例如: ThisIsFunction().;
+		2. 变量名用小驼峰,例如: thisIsVariable.;
+		3. 前端代码的id和class用下划线加后缀, 例如: exam_id, exam_class.;
+		4. 函数花括号的位置使用K&R标准，例如: |function a() 花括号 换行 内容 换行花括号|.;
+		5. 虚元素要在标签内结尾处加/, 例如: hr/.;
+		6. 单行注释用//多行注释用/* */.;
+		7. 函数参数尽量简洁，例如: environment请用env代替, button请用btn, etc;
 	}
+	<hr/>
 }
